@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Landing from "./pages/Landing";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
-import logo from "./logo.svg";
+import Nav from "./components/Nav";
 import "./App.css";
 
 function App() {

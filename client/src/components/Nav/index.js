@@ -32,7 +32,7 @@ class Nav extends Component {
     render() {
         return (
             <nav className="navbar">
-                <Link className="navbar-brand">Book Search</Link>
+                <Link className="navbar-brand" to="/">Book Search</Link>
                 <button
                     onClick={this.toggleNav}
                     className="navbar-toggler"

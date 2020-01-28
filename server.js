@@ -18,10 +18,11 @@ app.use(routes);
 // Send every other request to the React app
 // Define any API routes before this runs
 mongoose.connect(
-  process.env.MONGODB_URI || ,
+  process.env.MONGODB_URI || "mongodb://smswanlund:ewolf0074@ds161285.mlab.com:61285/heroku_wbx3f12b",
   {
     useCreateIndex:true,
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   }
   )
 

@@ -3,7 +3,7 @@ import React from "react";
 function Form({query, handleInputChange, handleFormSubmit}) {
     return (
         <form>
-            <div clasName="form-group">
+            <div className="form-group">
                 <label>
                     Book
                 </label>
